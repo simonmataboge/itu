@@ -1,0 +1,724 @@
+body
+{
+
+}
+.logo
+{
+	float:left;
+	color:black;
+	font-size:30px;
+	font-weight:bolder;
+	margin-top:0px;
+	margin-left:-10px;
+
+}
+@media screen and (max-width:1000px ){
+	.logo {
+        width: 490px;
+        margin-top: 0px;
+	}
+}
+.logo img 
+{
+    margin-left:10px;height:40px;width:60px;margin-top:0px;
+}
+@media screen and (max-width:1000px ){
+	.logo img {
+        margin-left: 0px;
+        margin-top: -10px;
+	}
+}
+
+.socials
+{
+	
+	padding:10px;
+	margin-top:-10px;
+	color:white;
+    float: right;
+    background-color: lime;
+    border-radius: 2px;
+    width: 150px;
+    
+	
+
+}
+@media screen and (max-width:1000px ){
+	.socials {
+        margin-top: -65px;
+	}
+}
+.buy-btn 
+{
+    margin-left: 200px;
+    margin-top: -50px;
+    background: lime;
+    border-radius: 2px;
+    padding: 10px 10px ;
+    width: 100px;    
+}
+.buy-btn a
+{
+    float: ;
+    color: white;
+    background-color: ;
+
+    border-color: lime;
+    
+}
+.buy-btn a:hover
+{
+    text-decoration: none;
+    color: purple;
+}
+.header-box
+{
+    margin-left: 200px;
+}
+.header
+{
+	
+	padding:10px;
+	padding-top:0px;
+    margin-top: 10px;
+	height: 47px;
+    font-size: 14px;
+
+}
+@media screen and (max-width:1000px ){
+	.header {
+        width: 490px;
+        margin-left: 0px;
+	}
+}
+.header a
+{
+	padding-left:20px;
+	color: black;
+    margin-top: -60px;
+    
+    
+}
+.header a:hover{
+    text-decoration: none;
+    color:purple;
+}
+.menu  {
+    margin-top: -20px;
+    
+    margin-left: 240px;
+
+}
+@media screen and (max-width:1000px ){
+	.menu {
+        display: none;
+	}
+}
+
+
+@media screen and (max-width:400px ){
+	.header a {
+        padding-left: 5px;
+	}
+}
+
+
+.sidepanel 
+{
+    display: none;
+}
+@media screen and (max-width:1000px ){
+
+.sidepanel  
+            {
+              width:0px;
+              position:fixed;
+              z-index: 1;
+              height: 280px;
+              top: 100px;
+              margin-left: 10px;
+              background-image:url(corp.png);
+              overflow-x: hidden;
+              transition: 0.5s;
+              padding-top: 10px;
+                border-radius: 10px;
+                display: block;
+            }
+}
+
+.sidepanel a {
+  padding:5px;
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  display:block;
+  transition: 0.3s;
+    margin-top: 0px;
+    text-align: ;
+}
+
+.sidepanel a:hover {
+  color: aqua;
+}
+
+.sidepanel .closebtn 
+{
+  position: absolute;
+  top: 0;
+  right: 5px;
+  font-size: 36px;
+    margin-top: -10px;
+}
+
+.openbtn 
+{
+font-size: 20px;
+  cursor: pointer;
+  color: #FF9900;
+  border: none;
+    
+
+ }
+@media screen and (max-width:1000px ){
+	.openbtn{
+        margin-left: 150px;
+        margin-top: -20px;
+        
+	}
+}
+.openbtn:hover 
+{
+  background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#home
+{
+    
+    color: ;
+    padding: 10px;
+    height: 500px;    
+    
+}
+.home
+{
+    margin-left: 50px;
+    margin-top: 100px;
+   
+}
+ .home img
+{
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+    margin-left: 690px;
+    margin-top: -250px;
+}
+ em
+{
+    color: grey;
+}
+.home p
+{
+    margin-left: 150px;
+    width: 500px;
+    font-size: 12px;
+}
+.social
+{
+    margin-left: 10px;
+    height: 50px;
+}
+.social .fa
+{
+	padding:5px;
+	color:lime ;
+	margin-top:0px;
+    padding-left: 10px;
+    background-color:purple;
+    border-radius: 2px;
+}
+@media screen and (max-width:1000px ){
+	.social .fa {
+        padding-left: 10px;
+        background-color: black;
+	}
+}
+@media screen and (max-width:400px ){
+	.social .fa {
+        padding-left: 5px;
+	}
+}
+.social .fa:hover{
+    text-decoration: none;
+    color:aqua;
+}
+.promo a, .portfolio a, .testimonials a
+{	
+	color: black;   
+}
+ .promo a:hover{
+    text-decoration: none;
+    color:purple;
+}
+
+ .portfolio a:hover{
+    text-decoration: none;
+    color:purple;
+}
+
+
+
+
+
+
+#team
+{
+    margin-top: 50px;
+    height: 300px;
+}
+.team 
+{
+    margin-left: 50px;
+}
+#team img
+{
+    width: 220px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+
+
+#about 
+{
+    margin-top: 50px;
+}
+.about
+{
+    margin-left: 50px;
+    text-align: center;
+}
+#about img
+{
+    width: 400px;
+    height: 300px;
+}
+#about .buy-btn
+{
+    margin-top: 30px;
+    margin-left: 440px;
+}
+
+
+
+
+
+
+
+
+#services
+{
+    margin-top: 50px;
+}
+.services
+{
+    margin-left: 50px;
+    
+}
+.box
+{
+    width: 220px;
+    display: inline-block;
+    margin-top: 50px;
+    border-color: purple;
+    border-style: solid;
+    border-width: thin;
+    padding: 10px;
+}
+.box p, b
+{
+    font-size: 12px;
+}
+.box a
+{
+    color: black;
+    font-size: 12px;
+    
+}
+.box a:hover
+{
+    text-decoration: none;
+    color:purple;
+}
+
+
+
+
+
+
+
+
+#portfolio
+{
+    margin-top: 50px;
+}
+.portfolio
+{
+    margin-left: 50px;
+}
+.portfolio-box
+{
+    height: 400px;
+    padding: 20px;
+    background-image:url(nature8.jpg);
+    background-repeat: no-repeat;
+    background-size:cover; 
+    width: 890px;
+}
+.portfolio-box1
+{
+    height: 400px;
+    padding: 20px;
+    background-image:url(nature10.jpg);
+    background-repeat: no-repeat;
+    background-size:cover; 
+    width: 890px;
+    margin-top: 10px;
+}
+.portfolio-box2
+{
+    height: 400px;
+    padding: 20px;
+    background-image:url(nature9.jpg);
+    background-repeat: no-repeat;
+    background-size:cover; 
+    width: 890px;
+    margin-top: 10px;
+}
+.portfolio-box3
+{
+    height: 400px;
+    padding: 20px;
+    background-image:url(nature7.jpg);
+    background-repeat: no-repeat;
+    background-size:cover; 
+    width: 890px;
+    margin-top: 10px;
+}
+.portbox
+{
+    display: inline-block;
+    width: 260px;
+}
+.portfolio p
+{
+    margin-top: 260px;
+}
+
+
+
+
+#testimonials
+{
+    margin-top: 80px;
+    height: 400px;
+}
+.testimonials
+{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.testimonial
+{
+    width: 213px;
+    height: 200px;
+    display: inline-block;
+}
+.testimonial img
+{
+    width: 210px;
+    height: 200px;
+}
+.checked
+{
+    color: goldenrod;
+}
+.testimonials a:hover
+{
+    text-decoration: none;
+    color:purple;
+}
+
+
+
+
+
+
+
+
+
+
+#promo
+{
+    margin-top: 50px;
+    background-color: #ccc;
+    padding: 100px;
+    
+}
+
+.promo
+{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+#faq
+{
+    margin-top: 50px;
+    height: 400px;
+}
+.faq
+{
+    width: 820px;
+    margin-left: 50px;
+}
+.faq-box
+{
+    width: 400px;
+    display: inline-block;
+}
+.faq-box img
+{
+    width: 300px;
+    margin-left: 100px;
+    margin-top: -200px;
+}
+ .collapsible {
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+	margin-top: 10px;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+
+
+.content-list {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+#footer
+{
+    margin-top: 50px;
+}
+
+.footer
+{
+    margin-left: 50px;
+}
+
+.footer-box
+{
+    display: inline-block;
+    width: 200px;
+}
+#footer img
+{
+    width: 100px;
+    height: 100px;
+}
+
+#footer a
+{
+    color: black;
+}
+
+#footer a:hover
+{
+    color: purple;
+    text-decoration: none;
+}
+
+
+
+
+
+
+#intro
+{
+    height: 200px;
+    text-align: center;
+    padding: 50px;
+}
+
+#container 
+{
+    margin-top: 50px;
+    height: 500px;
+}
+.container
+{
+    margin-left: 50px;
+    text-align: ;
+}
+#container img
+{
+    width: 400px;
+    height: 500px;
+}
+#container .buy-btn
+{
+    margin-top: 30px;
+    margin-left: 440px;
+}
+#container .social
+{
+    margin-left: 410px;
+    height: 50px;
+    margin-top: -150px;
+}
+#container-promo
+{
+    background-image: url(marvin-meyer-SYTO3xs06fU-unsplash.jpg);
+    background-repeat:no-repeat;
+    background-size:cover; 
+    text-align: center;
+    height: 400px;
+    padding: 50px;
+    color: white;
+}
+.table
+{
+    background-color: white;
+    text-align: left;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+.box img
+{
+    width: 200px;
+    height: 180px;
+}
+
+
+
+
+
+
+
+
+.container-faq
+{
+    width: 600px;
+    margin-left: 320px;
+}
+
+
+
+
+
+
+
+
+.details
+{
+    margin-left: 50px;
+    width: 900px;
+    padding: 50px;
+    
+}
+
+
+
+
+
+#price
+{
+    margin-top: 50px;
+}
+.price
+{
+    margin-left: 50px;
+}
+.plan-box
+{
+    display: inline-block;
+    width: 300px;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    text-align: ;
+}
+#price .buy-btn 
+{
+    margin-left: 80px;
+    margin-top: 0px;
+    background: lime;
+    border-radius: 2px;
+    padding: 10px 10px ;
+    width: 100px;    
+}
+#price .buy-btn a
+{
+    float: ;
+    color: white;
+    background-color: ;
+
+    border-color: lime;
+    
+}
+#price .buy-btn a:hover
+{
+    text-decoration: none;
+    color: purple;
+}
+.plan-box em
+{
+    margin-top: -140px;
+    margin-left: 70px;
+}
